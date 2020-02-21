@@ -8,7 +8,7 @@ def afairei_fwnienta(c):
     vowels = ('a', 'e', 'i', 'o', 'u')
     for x in c.lower():
         if x in vowels:
-            newstr = newstr.replace(x,"")
+            newstr = newstr.replace(x,"")    #an uparxei kapoio fwnhen to afairei
 
     return newstr
 
@@ -26,6 +26,6 @@ while i < 6 :
 
 
 for n in max_words_list:  
-  k = afairei_fwnienta(n)                      #afairw ta fwnhenta apo tis lekseis
+  k = afairei_fwnienta(n)                      #kalei th sunarthsh
   print(k[::-1])                               #emfanizw tis lekseis tis listas anapoda
 
