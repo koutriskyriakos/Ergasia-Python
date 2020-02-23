@@ -1,3 +1,5 @@
+#ASKHSH 2
+
 def bad_good_letters(c):
     ct_good = 0
     ct_bad = 0
