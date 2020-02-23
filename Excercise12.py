@@ -27,5 +27,6 @@ year = users_date.year                                                          
 print("days:hours:minutes:seconds -> %d:%d:%d:%d" % (day, hour, minutes, seconds))
 
 if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12: print('The month you are looking for has 31 days')
-if month == 2 and year%4 == 0: print('The month you are looking for has 28 days')                                      #auto ginetai se periptwsi disektou etous
+if month == 2 and year%4 == 0: print('The month you are looking for has 29 days')                                      #auto ginetai se periptwsi disektou etous
+if month == 2 : print('The month you are looking for has 28 days')
 if month == 4 or month == 6 or month == 9 or month == 11: print('The month you are looking for has 30 days')
