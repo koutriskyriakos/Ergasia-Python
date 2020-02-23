@@ -1,3 +1,5 @@
+#ASKHSH 1
+
 lista = []
 max_words_list = []
 i = 1
